@@ -1,0 +1,42 @@
+body /*name of the division */
+{
+    display: block; /*determine the type of box will used */
+    margin: 0px; /*adjustment of the margin in the whole element */
+    background-image: url(images/stars.gif); /*a picture or background of the website */
+    background-position: center; /* position of the background*/
+    background-repeat: no-repeat; /*repetition of the background */
+    background-size: cover; /*specifies the size of the image */
+}
+* /*applies on the whole website */
+{
+    font-family:'Courier New', Courier, monospace /* type of font used*/
+}
+.title h1 /*the chosen division or element */
+{
+ color:rgb(176, 176, 255); /* specify the color used*/
+ text-align: center; /*possition of the text */
+ font-size: 100px; /* size of the font*/
+}
+.title h2 /* the chosen division or element*/
+{
+ color:rgb(176, 176, 255); /* specify the color used*/
+ text-align: center; /*possition of the text*/
+ font-size: 50px; /*size of the font */
+}
+.link h1 a /*the chosen division or element */
+{
+    margin-left: 470px; /*adjustment of the left margin */
+    margin-top: 220px; /* adjustment of the top margin*/
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(176, 176, 255); /* specify the color used*/
+    font-size: 30px; /*size of the font */
+    text-decoration: none; /*decoration of the text */
+}
+.link h1 a:hover /* the chosen division or element*/
+{
+ color:rgba(185, 255, 249, 0.808) /*specify the color used */
+}
+.table table tr td  /*the chosen division or element */
+{
+    align-items: center;   /*alignment or position of the items */
+}

@@ -1,0 +1,87 @@
+* /*it applies to whole website */
+{
+    padding: 0; /* adjustment of the space of the container or the element*/
+    margin: 0; /*adjustment of the margin of the container or the element */
+    font-family: 'Times New Roman', Times, serif; /*type of the font used  */
+}
+body /*name of the division */
+{
+    display: block; /* display of the whole website, button or a division*/
+    margin: 0px; /*adjustment of the margin of the container or the element */
+    background-image: url(images/stars.gif); /* a picture or background of the website*/
+    background-position: center; /* position of the background*/
+    background-repeat: no-repeat; /*repitition or pattern of the background */
+    background-size: cover; /*specifies the size of the image */
+    margin: 0px; /*adjustment of the margin of the container or the element */
+}
+.registration /*the chosen division or element */
+{
+    position: absolute; /* position of the element */
+    top: 50%; /* The vertical position of a positioned element is specified in part by the top CSS attribute.s*/
+    left: 50%; /*The left side position of a positioned element is specified in part by the left CSS attribute. */
+    transform: translate(-50%, -50%); /* allows you translate, scale, rotate, and skew an element.*/
+    width: 500px; /*specifies the width either in margin, container or padding */
+    /*The color/ look of the background and specifying the distribution of gradient */ background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px) /*applying effects such as blur */
+    -webkit-backdrop-filter: blur(10px); /* applying effects such as blur*/
+    border-radius: 20px; /*adjusting the roundness of the corner */
+    border: 1px solid rgba(255,255,255,0.18); /*putting border surround the element */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /* putting shadow surround the border and element*/
+}
+.registration h1 /* the chosen division or element*/
+{
+    color: rgb(176, 176, 255); /*chosen color of the text */
+    font-size: 40px; /*size of the font */
+    text-align: center; /*position/alignment of the text */
+    margin: 40px 0; /*adjustment of the margin surround the container or element */
+}
+.registration p /* the chosen division or element*/
+{
+    color: rgb(176, 176, 255); /* chosen color of the text*/
+    font-size: 20px; /* size of the font*/
+    margin: 15px 0; /*adjustment of the margin surround the container or element */
+
+}
+.registration input /*the chosen division or element */
+{
+    color: rgb(176, 176, 255); /*chosen color of the element */
+    font-size: 15px; /*size of the font */
+    padding: 15px 10px; /*adjustment of the space surround the container or element */
+    width: 100%; /*specifies the width either in margin,element, container or padding */
+    border: 0; /*putting border surround the element */
+    border-radius: 5px; /*adjusting the roundness of the corner */
+    outline: none; /*type outline of the element */
+}
+.registration button /*the chosen division or element */
+{
+    font-size: 20px; /*size of the font */
+    font-weight: bold; /*type of stroke or thickness of the text */
+    margin: 20px 0; /*adjustment of the margin surround the container or element  */
+    padding: 10px 15px; /*adjustment of the space surround the container or element */
+    width: 50%; /*specifies the width either in margin, element, container or padding */
+    border: 0; /*putting border surround the element */
+    border-radius: 5px; /*adjusting the roundness of the corner */
+    background-color: aquamarine; /*chosen color of the background */
+}
+.registration button:hover /* the chosen division or element*/
+{
+ color: lightcoral; /* chosen color of the text when it was hovered.*/
+}
+.link h1 a /*the chosen division or element */
+{
+    color: rgb(0, 0, 0); /*chosen color of the text */
+    font-size: 30px; /*size of the font */
+    text-decoration: none; /*decoration of the text */
+    font-size: 20px; /*size of the font */
+    font-weight: bold; /*type of stroke or thickness of the text */
+    margin: 20px 0; /* adjustment of the margin surround the container or element */
+    padding: 10px 15px; /*adjustment of the space surround the container or element */
+    width: 50%; /*specifies the width either in margin, element, container or padding */
+    border: 0; /* putting border surround the element*/
+    border-radius: 5px; /*adjusting the roundness of the corner */
+    background-color: aquamarine;/* chosen color of the background*/
+}
+.link h1 a:hover /* the chosen division or element*/
+{
+    color: lightcoral; /*chosen color of the text when it was hovered */
+}

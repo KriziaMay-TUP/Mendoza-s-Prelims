@@ -1,0 +1,295 @@
+body /*name of the division */
+{
+    display: block;  /*display of the whole website, button or a division */
+    margin: 0px; /*border */
+    background-image: url(images/stars.gif); /*a picture or background of the website */
+    background-position: center; /*position of the background */
+    background-repeat: no-repeat; /*repitition or pattern of the background */
+    background-size: cover; /*specifies the size of the image */
+}
+* /* it applies to whole website*/
+{
+    font-family:'Courier New', Courier, monospace /*type of font */
+}
+.planet .saturn /*the chosen division or element */
+{
+    padding-top: 50px; /*Space in the top of the element*/
+}
+.planet .sat /*the chosen division or element */
+{
+    float: right; /*position of  an element or attribute */
+    padding-top: 30%; /* Space around the element*/
+}
+.intro /* the chosen division or element*/
+{
+    position: absolute; /*position of the element */
+    top: 50%; /* The vertical position of a positioned element is specified in part by the top CSS attribute.*/
+    left: 50%; /* The left side position of a positioned element is specified in part by the left CSS attribute.*/
+    transform: translate(-50%, -50%); /* allows you translate, scale, rotate, and skew an element.*/
+    width: 900px; /*specifies the width either in margin, container or padding */
+    /*The color/ look of the background and specifying the distribution of gradient */ background: linear-gradient(100deg, rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px) /* applying effects such as blur*/
+    -webkit-backdrop-filter: blur(10px); /*applying effects such as blur */
+    border-radius: 20px; /* adjusting the roundness of the corner*/
+    border: 1px solid rgba(255,255,255,0.18); /*putting border surround the element */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /*putting shadow surround the border and element */
+    padding-top: 100px; /*Space in the top of the element */
+    padding-bottom: 100px; /* Space in the bottom of the element*/
+    text-align: center; /*positioning the text on the center */
+    font-size: 30px; /*size of the font */
+    color: rgb(176, 176, 255); /*chosen color of the element */
+    
+}
+.intro p /*the chosen division or element */
+{
+    color: rgb(122, 124, 252); /*chosen color of the text */
+}
+.intro .img /* the chosen division or element*/
+{
+    float: center; /* position of  an element or attribute */
+    height: 250px; /*specific height of the element */
+    width: 250px; /* specific width of the element*/
+    background-color:#00ffd5; /*specific color of the background for the image */
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    margin-top: 50px; /*adjustment of the top margin */
+    margin-bottom: 20px; /*adjustment of the bottom margin */
+    border: 15px solid #00ffd5; /*putting border on the  element and apecify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /*putting shadow surround the border and element */
+}
+.content  /* the chosen division or element*/
+{
+    margin-top: 50%; /*adjustment of the top margin */
+    text-align: center; /*position of the text */
+    font-size: 20px; /* size of the font*/
+    color: rgb(176, 176, 255); /*chosen color of the element */
+}
+.content .draw /*the chosen division or element */
+{
+    float: left; /*position of the element/attribute */
+    height: 140px; /*specify the height */
+    width: 140px; /* specify the width*/
+    background-color:#00ffd5; /*specify the color of the background */
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    margin-top: 50px; /*adjustment of the top margin */
+    margin-bottom: 20px; /*adjustment of the bottom margin */
+    margin-left: 150px; /*adjustment of the left margin */
+    border: 15px solid #00ffd5; /*putting border on the element and specify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /* putting shadow surround the border and element*/
+}
+.content .dance /*the chosen division or element */
+{
+    float: right; /*position of the element or attribute */
+    height: 140px; /*adjust the height */
+    width: 140px; /*adjust the width */
+    background-color:#00ffd5; /* specify the color of the background*/
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    margin-top: 300px; /* adjustment of the top margin*/
+    margin-bottom: 20px; /*adjustment of the bottom margin */
+    margin-right: 150px; /* adjustment of the left margin*/
+    border: 15px solid #00ffd5; /*putting border on the element and specify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /*putting shadow surround the border and element */
+}
+.content .sing /*the chosen division or element */
+{
+    float: left; /*position of the element or attribute */
+    height: 140px; /*adjust the height */
+    width: 140px; /*adjust the width */
+    background-color:#00ffd5; /*chosen color of the background */
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    margin-top: 550px; /*adjustment of the top margin */
+    margin-bottom: 20px; /*adjustment of the bottom margin */
+    margin-left: -170px; /* adjustment of the left margin*/
+    border: 15px solid #00ffd5; /* putting border on the element and specify the color*/
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /* putting shadow surround the border and element*/
+}
+.text h1 /* the chosen division or element*/
+{
+    text-align: left; /*position/alignment of the text */
+    margin-top: 140px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(122, 124, 252); /*chosen color of the text */
+    padding-left: 450px; /*adjust ment of the space in the left */
+    font-size: 30px; /*size of the font */
+}
+.text h2 /* the chosen division or element*/
+{
+    text-align: right; /*position/alignment of the text */
+    margin-top: 220px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(122, 124, 252); /*chosen color of the text */
+    padding-right: 430px; /*adjustment of the space in the right */
+    font-size: 30px; /*size of the font */
+}
+.text h3 /*the chosen division or element */
+{
+    text-align: left; /*position/alignment of the text */
+    margin-top: 220px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(122, 124, 252); /* chosen color of the text*/
+    padding-left: 450px; /*adjustment of the space in the left */
+    font-size: 30px; /* size of the font*/
+}
+
+.spaceship .spaceship /*the chosen division or element */
+{
+    padding-top: 50px; /*adjustment of the space in the top */
+    float: right; /*position of the element or attribute */
+    margin-right:50px; /*adjustment of the right margin */
+    margin-left:0px; /*adjustment of the left margin */
+    width: 240px; /*adjustment of the width */
+    height: 250px; /*adjustment of the height */
+}
+.spaceship .ufo /* the chosen division or element*/
+{ 
+  padding-top: 25%; /*adjustment of the space in the top */
+  float: left; /*position of the element or the attribute */
+  margin-left:50px; /*adjustment of the left margin */
+  margin-right:0px; /*adjustment of the right margin */
+  width: 240px; /*adjustment of the width  */
+  height: 250px; /*adjustment of the height */
+}
+.info /* the chosen division or element*/
+{
+    text-align: center; /*position/alignment of the text */
+    margin-top: 220px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(176, 176, 255); /*chosen color of the text */
+    font-size: 30px; /*size of the font */
+}
+.info p /* the chosen division or element*/
+{
+    color: rgb(122, 124, 252); /*chosen color of the text */
+}
+.link h2 a /* the chosen division or element*/
+{
+    margin-left: 200px; /*adjustment of the left margin */
+    margin-top: 250px; /*adjustment of the top margin */
+    margin-bottom: 70px; /* adjustment of the bottom margin*/
+    color: rgb(176, 176, 255); /*chosen color of the text */
+    font-size: 30px; /*size of the font */
+    text-decoration: none; /*decoration applied on the text */
+}
+.link h2 a:hover /* the chosen division or element*/
+{
+ color:rgba(185, 255, 249, 0.808) /*chosen color of the text when it was hovered */
+}
+.link h3 a /* the chosen division or element*/
+{
+    margin-left: 160px; /*adjustment of the left margin */
+    margin-top: 250px; /* adjustment of the top margin*/
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(176, 176, 255); /* chosen color of the text*/
+    font-size: 30px; /* size of the font*/
+    text-decoration: none; /*decoration applied on the text */
+}
+.link h3 a:hover /* the chosen division or element*/
+{
+ color:rgba(185, 255, 249, 0.808); /*chosen color of the text when it was hovered */
+}
+.wall h1 /*the chosen division or element */
+{
+    margin-left: 470px; /*adjustment of the left margin */
+    padding-top:150px; /*adjustment of the space in the top */
+}
+.contact h1 /*the chosen division or element */
+{
+    text-align: center; /*position/alignment of the text */
+    margin-top: 200px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(176, 176, 255); /*chosen color of the text */
+    font-size: 50px; /*size of the font */
+}
+.contact h2 /* the chosen division or element*/
+{
+    text-align: center; /*position/alignment of the text */
+    margin-top: 100px; /*adjustment of the top margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+    color: rgb(122, 124, 252); /*chosen color of the text */
+    font-size: 30px; /*size of the font */
+}
+.myButton {  /* the chosen division or element*/
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%); /* background of an attribute and specify the ditribution of the gradient and its colors*/
+	background-color:#dfbdfa; /*chosen color of the background */
+	border-radius:28px; /*adjust the roundness of the corners */
+	border:1px solid #c584f3; /* putting border around the element and specify the color*/
+	cursor:pointer; /*specify the pointer when it was hovered in the specific attribute */
+	color:#ffffff; /*chosen color of the text */
+	font-family:Courier New; /*type of font used */
+	font-size:17px; /*size of the font */
+	font-weight:bold; /*type of stroke and thickness */
+	padding:16px 31px; /* adjustment of space arround the element or attribute*/
+	text-decoration:none; /*decoration on the text */
+	text-shadow:0px 1px 0px #9752cc; /*putting shadow surround the text */
+    display: flex; /*type of box or container used for the element */
+    justify-content: center; /*align the items on the box or container */
+    align-items: center; /* adjust the alignment of the items*/
+    margin-left: 500px; /*adjustment of the top margin */
+    margin-right: 500px; /*adjustment of the right margin */
+    margin-bottom: 70px; /*adjustment of the bottom margin */
+}
+.myButton:hover { /*the chosen division or element */
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%); /*background of an attribute and specify the ditribution of the gradient and its colors */
+	background-color:#bc80ea; /*chosen color of the background */
+}
+.myButton:active { /*the chosen division or element */
+	position:relative; /*position of the element or attribute */
+	top:1px; /* adjustment of the space of top margin*/
+}
+.footer /*the chosen division or element */
+{
+    left: 0; /*adjustment of the left margin */
+    bottom: 0; /*adjustment of the bottom margin*/
+    height: 100px; /*adjustment of the height of the element */
+    width: 100%; /* adjustment of the width of the element*/
+     /* background of an attribute and specify the ditribution of the gradient and its colors*/background: linear-gradient(100deg, rgba(255, 255, 255, 0.24) rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px) /*adjusting the blur */
+    -webkit-backdrop-filter: blur(10px); /* adjusting the blur */
+    border-radius: 10px; /* adjusting the roundness of the corners*/
+    border: 1px solid rgba(255,255,255,0.18); /*putting border around the element or container and specify the color */
+    padding-top: 10px; /* adjusting the space of the top in the container*/
+    padding-bottom: 100px; /*adjusting the space of the bottom in the container */
+    color: rgb(176, 176, 255); /* chosen color of the text*/
+    color: white; /*chosen color of the text */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /* putting shadow surround the border and element*/
+}
+.footer h1  /*the chosen division or element */
+{
+    text-align: center; /*position/alignment of the text */
+    text-decoration: none; /*decoration of the text */
+    font-size: 25px; /*size of the font */
+    color:rgb(176, 176, 255); /*chosen color of the text */
+}
+.footer ul /*the chosen division or element */
+{
+    position: absolute; /* position of the element or container*/
+    padding-top: 5%; /*adjustment of the space in top */
+    margin-left: 48%; /*adjustment of the left margin */
+    transform: translate(-50%,  -50%); /*allows you translate, scale, rotate, and skew an element. */
+    display: flex; /*type of box or container used for the element */
+}
+.footer ul li /*the chosen division or element */
+{
+    list-style: none; /*decoration/order of the list */
+    margin: 0 15px; /*adjustment of the margins */
+}
+.footer ul li a .da /*the chosen division or element */
+{
+    background-color:#00ffd5; /*chosen color of the background */
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    border: 15px solid #00ffd5; /*putting border around the element or container and specify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /*putting shadow surround the border and element */
+}
+.footer ul li a .ig /*the chosen division or element */
+{
+    background-color:#00ffd5; /*chosen color of the background */
+    border-radius: 50%; /* adjusting the roundness of the corner*/
+    border: 15px solid #00ffd5; /*putting border around the element or container and specify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /*putting shadow around thethe element or container and specify the color  */
+}
+.footer ul li a .fb /*the chosen division or element */
+{
+    background-color:#00ffd5; /*chosen color of the background */
+    border-radius: 50%; /*adjusting the roundness of the corner */
+    border: 15px solid #00ffd5; /*putting border around the element or container and specify the color */
+    box-shadow: 0 0 20px rgba(185, 255, 249, 0.808); /* putting shadow surround the border and element*/
+}
